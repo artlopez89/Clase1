@@ -45,10 +45,35 @@ public class Clase1 {
                       System.out.println(i + " x " + Numero + " = " + Numero*i);
   
                 }
-            
-
-    }
+        //   Valor absoluto 
+        Numero = 0;
         
-
-    
+        System.out.print("Ingresa un Numero : ");
+        Numero = leer.nextInt();
+        if (Numero <=0)
+        {
+         Numero=Numero*-1;   
+        }
+            
+            System.out.println("El Numero es: " + Numero);
+        // Mayor a menor
+        
+        
+        //Par inpar o 0
+        Numero = 0;
+        
+        System.out.print("Ingresa un Numero : ");
+        Numero = leer.nextInt();
+        if (Numero == 0)
+        {
+           System.out.println("El Numero es: 0");
+        }
+        else if( Numero%2==0)
+            System.out.println("El Numero es: Par");
+        else
+        {
+            System.out.println("El Numero es: Inpar");
+        }
+    }
 }
+        
