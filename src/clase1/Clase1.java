@@ -55,8 +55,36 @@ public class Clase1 {
          Numero=Numero*-1;   
         }
             
-            System.out.println("El Numero es: " + Numero);
+            System.out.println("El Numero en positivo es: " + Numero);
         // Mayor a menor
+        Numero = 0;
+        
+        System.out.print("Ingresa primer Numero : ");
+        int Numero1 = leer.nextInt();
+        System.out.print("Ingresa segundo Numero : ");
+        int Numero2 = leer.nextInt();
+        System.out.print("Ingresa tercer Numero : ");
+        int Numero3 = leer.nextInt();
+        int Temp = 0;
+           for( int j=1; j<=2; j++)       
+           {
+               if (Numero1<=Numero2)
+               {
+                   Temp=Numero1;
+                   Numero1=Numero2;
+                   Numero2=Temp;
+               }
+               if (Numero2<=Numero3)
+               {
+                   Temp=Numero2;
+                   Numero2=Numero3;
+                   Numero3=Temp;
+               }
+              
+           }
+                   System.out.println("Los numeros ordenados son: " + Numero1 + 
+                           " " + Numero2 + " " + Numero3);
+        
         
         
         //Par inpar o 0
