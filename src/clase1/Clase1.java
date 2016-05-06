@@ -31,7 +31,24 @@ public class Clase1 {
                 }
         }
         System.out.println("El factorial de " + Numero + " es: " + Factorial);
+
+        //Tabla multiplicar    
+        
+        
+        Numero = 0;
+        
+        System.out.print("Ingresa un Numero para la tabla: ");
+        Numero = leer.nextInt();
+        
+            for(int i=1; i<=10; i++)
+                {
+                      System.out.println(i + " x " + Numero + " = " + Numero*i);
+  
+                }
+            
+
     }
         
+
     
 }
